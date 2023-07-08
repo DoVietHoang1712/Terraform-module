@@ -41,7 +41,7 @@ variable "chart_version" {
   description = "Cluster autoscaler helm chart version"
 }
 
-variable "Namespace" {
+variable "namespace" {
   type        = string
   default     = "kube-system"
   description = "Namespace to deploy chart"
